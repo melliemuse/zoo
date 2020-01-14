@@ -1,8 +1,11 @@
 # Create a tuple named zoo that contains 10 of your favorite animals.
+zoo = ("giraffes", "pandas", "spider monkeys", "mollusks", "lynx", "squid", "rabbits", "cats", "dogs", "horses")
 # Find one of your animals using the tuple.index(value) syntax on the tuple.
 # Example
-flowers = ("daisy", "rose")
-print(flowers.index("rose")) # Output is 1
+# flowers = ("daisy", "rose")
+# print(flowers.index("rose")) # Output is 1
+print(zoo.index("lynx")) 
+# print(zoo.index("sparrow")) 
 # Determine if an animal is in your tuple by using value in tuple syntax.
 animal_to_find = "kangaroo"
 # if animal_to_find in zoo:
