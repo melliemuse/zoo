@@ -7,9 +7,10 @@ zoo = ("giraffes", "pandas", "spider monkeys", "mollusks", "lynx", "squid", "rab
 print(zoo.index("lynx")) 
 # print(zoo.index("sparrow")) 
 # Determine if an animal is in your tuple by using value in tuple syntax.
-animal_to_find = "kangaroo"
-# if animal_to_find in zoo:
+animal_to_find = "lynx"
+if animal_to_find in zoo:
     # Print that the animal was found
+    print(f"{animal_to_find} was found")
 # You can reverse engineer (unpack) a tuple into another tuple with the following syntax.
 children = ("Sally", "Hansel", "Gretel", "Svetlana")
 (first_child, second_child, third_child, fourth_child) = children
