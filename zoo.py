@@ -12,19 +12,23 @@ if animal_to_find in zoo:
     # Print that the animal was found
     print(f"{animal_to_find} was found")
 # You can reverse engineer (unpack) a tuple into another tuple with the following syntax.
-children = ("Sally", "Hansel", "Gretel", "Svetlana")
-(first_child, second_child, third_child, fourth_child) = children
-print(first_child) # Output is "Sally"
-print(second_child) # Output is "Hansel"
-print(third_child) # Output is "Gretel"
-print(fourth_child) # Output is "Svetlana"
+# children = ("Sally", "Hansel", "Gretel", "Svetlana")
+# (first_child, second_child, third_child, fourth_child) = children
+# print(first_child) # Output is "Sally"
+# print(second_child) # Output is "Hansel"
+# print(third_child) # Output is "Gretel"
+# print(fourth_child) # Output is "Svetlana"
 # Create a variable for the animals in your zoo tuple, and print them to the console.
 animals = ("giraffes", "pandas", "spider monkeys", "mollusks", "lynx", "squid", "rabbits", "cats", "dogs", "horses")
 (a1, a2, a3, a4, a5, a6, a7, a8, a9, a10) = animals
 # Convert your tuple into a list.
-animalList = list(animals)
+animals = list(animals)
+print(animals)
 # Use extend() to add three more animals to your zoo.
-animalList.extend(["baracuda"])
-animalList.extend(["french bulldog"])
-animalList.extend(["kangaroo"])
+animals.extend(["baracuda"])
+animals.extend(["french bulldog"])
+animals.extend(["kangaroo"])
 # Convert the list back into a tuple. 
+animals = tuple(animals)
+print(animals)
+print(type(animals))
